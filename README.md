@@ -2,7 +2,8 @@
 
 This project is a starter kit with [auto-changelog](https://www.npmjs.com/package/auto-changelog) dependency configurated. Pre-integrated with [ClickUp](https://app.clickup.com/).
 
-For manual installation or tips, [read this article - (PT-BR)](https://medium.com/@tiagoboeing/automatizando-gera%C3%A7%C3%A3o-de-changelogs-em-seus-projetos-nodejs-a4d2300c49d3)
+- For manual installation or tips, [read this article - (PT-BR)](https://medium.com/@tiagoboeing/automatizando-gera%C3%A7%C3%A3o-de-changelogs-em-seus-projetos-nodejs-a4d2300c49d3)
+- Original dependency: [auto-changelog](https://www.npmjs.com/package/auto-changelog)
 
 # Result
 
