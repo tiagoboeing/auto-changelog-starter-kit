@@ -1,0 +1,31 @@
+{
+  "name": "auto-changelog-starter-kit",
+  "version": "1.0.0",
+  "description": "Starter kit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "changelog": "auto-changelog --template changelog-template.hbs -p -u --commit-limit false",
+   "changelog-debug": "auto-changelog --template changelog-template.hbs -p --template json --output changelog-data.json"
+  },
+  "author": "Tiago Boeing",
+  "license": "MIT",
+  "devDependencies": {
+    "auto-changelog": "^1.16.2"
+  },
+  "auto-changelog": {
+    "commitLimit": false,
+    "unreleased": true,
+    "issueUrl": "https://app.clickup.com/t/{id}",
+    "replaceText": {
+       "[Ff]eature:": "",
+       "[Ff]ix:": "",
+       "[Bb]reak:": "",
+       "^ #(.{6})\\s": "[$1](https://app.clickup.com/t/$1) - "
+    },
+    "includeBranch": [
+       "develop",
+       "master"
+    ]
+ }
+}
