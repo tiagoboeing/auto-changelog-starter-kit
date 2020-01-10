@@ -45,7 +45,7 @@ No problem, in your `package.json` change the property `auto-changelog` for:
       "[Ff]eature:": "",
       "[Ff]ix:": "",
       "[Bb]reak:": "",
-      "([A-Z]+-d+)": "[$1](http://jira.user.com.br/browse/$1) - "
+      "([A-Z]+-\\d+)": "[$1](http://jira.user.com.br/browse/$1) - "
     },
     "includeBranch": [
       "develop",
